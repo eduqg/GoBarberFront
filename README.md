@@ -19,8 +19,12 @@ Para adicionar bibliotecas do Prettier e ESLint
 
 > yarn add eslint-import-resolver-babel-plugin-root-import  babel-plugin-root-import -D
 
-
 Criar arquivo .editorconfig com extensão  Editor config.
 
 Adicionar bibliotecas de estilos, rotas e prop-types.
 > yarn add styled-components react-router-dom prop-types
+
+> yarn add react-router-dom styled-components prop-types
+
+History: para navegação em qualquer tela
+> yarn add history
