@@ -28,3 +28,6 @@ Adicionar bibliotecas de estilos, rotas e prop-types.
 
 History: para navegação em qualquer tela
 > yarn add history
+
+Reactotron ReactJS
+> yarn add reactotron-react-js
