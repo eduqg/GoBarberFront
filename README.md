@@ -2,6 +2,34 @@
 
 ### Projeto do curso Gostack Rocketseat modulo 9
 
+### Funcionalidades
+
+* Login.
+* Logout.
+* Criação de usuário.
+* Edição de usuário (incluindo foto).
+* Notificações.
+* Listagem de agendamentos para provedor de serviços por dia.
+
+### Imagens da aplicação final
+
+Login
+![Login](./src/assets/login.png)
+
+Registro de usuário
+![Registro](./src/assets/registro.png)
+
+Edição de usuário
+![Edit](./src/assets/edit.png)
+
+Agenda do provedor de serviços
+![Agenda](./src/assets/agenda.png)
+
+Notificações
+
+![Notificações](./src/assets/notification.png)
+
+
 ### Comandos de Desenvolvimento
 
 Para inicializar o projeto.

@@ -41,6 +41,7 @@ export const NotificationList = styled.div`
   /* Cima e baixo 15px e Esquerda e Direita 5px */
   padding: 15px 5px;
   display: ${props => (props.visible ? 'block' : 'none')};
+  z-index: 9999;
 
   &::before {
     content: '';
