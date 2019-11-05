@@ -73,6 +73,9 @@ Adicionar redux para a autenticação. Token e informações de usuário devem s
 
 Para testar, ir no reactotron, state e adicionar auth. Ele vai aparecer com o valor inicial definido no reducer, trocar para token: '123' para ter certeza.
 ___
+Para persistir token de usuário autenticado.
+
+> yarn add redux-persist
 ___
 ___
 ___
