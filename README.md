@@ -100,3 +100,6 @@ Scrollbar de notificações.
 
 > yarn add react-perfect-scrollbar
 ___
+Para datas. Ultima versão.
+
+> yarn add date-fns@next
