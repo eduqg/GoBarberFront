@@ -103,3 +103,8 @@ ___
 Para datas. Ultima versão.
 
 > yarn add date-fns@next
+
+Para timezones.
+
+> yarn add date-fns-tz
+___
