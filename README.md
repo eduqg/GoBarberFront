@@ -77,5 +77,8 @@ Para persistir token de usuário autenticado.
 
 > yarn add redux-persist
 ___
+Para toasts
+
+> yarn add react-toastify
 ___
 ___
