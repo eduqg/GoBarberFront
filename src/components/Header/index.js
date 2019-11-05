@@ -5,6 +5,8 @@ import { Container, Content, Profile } from './styles';
 
 import bigode from '~/assets/bigode.svg';
 
+import Notifications from '~/components/Notifications';
+
 export default function Header() {
   return (
     <Container>
@@ -15,6 +17,7 @@ export default function Header() {
           <Link to="/dashboard">DASHBOARD</Link>
         </nav>
         <aside>
+          <Notifications />
           <Profile>
             <div>
               <strong>Eduardo Quintino</strong>

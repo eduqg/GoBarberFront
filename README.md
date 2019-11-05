@@ -91,3 +91,12 @@ ___
 Para mock de avatares
 
 Abrir api.adorable.io
+___
+Para icones
+
+> yarn add react-icons
+___
+Scrollbar de notificações.
+
+> yarn add react-perfect-scrollbar
+___
