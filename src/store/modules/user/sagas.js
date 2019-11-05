@@ -7,12 +7,16 @@ import { updateProfileFailure, updateProfileSuccess } from './actions';
 
 export function* updateProfile({ payload }) {
   try {
-    const { name, email, ...rest } = payload.data;
+    const { name, email, avatar_id, ...rest } = payload.data;
 
     // ObjectAssign une objetos
     // rest.oldPassword = Se digitou senha atual, então mandar o restante das informações
     // const profile = Object.assign({ name, email }, rest.oldPassword ? rest : {});
-    const profile = { name, email, ...(rest.oldPassword ? rest : {}) };
+    // eslint-disable-next-line prefer-object-spread
+    const profile = Object.assign(
+      { name, email, avatar_id },
+      rest.oldPassword ? rest : {}
+    );
 
     const response = yield call(api.put, 'users', profile);
 
