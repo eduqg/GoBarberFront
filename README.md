@@ -88,3 +88,6 @@ Fluxo para a criação de funcionalidade:
 * Chamar em handleAlgo o request com os parâmetros apropriados.
 * Ouvir a request em saga criando método em takeLatest.
 ___
+Para mock de avatares
+
+Abrir api.adorable.io
