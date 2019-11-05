@@ -63,6 +63,9 @@ Biblioteca da rocketseat para criar formulários.
 > yarn add @rocketseat/unform
 
 ___
+Para validações de campos utilizar yup. Serve tanto para node quanto para react. Baseado em schemas.
+
+> yarn add yup
 ___
 ___
 ___

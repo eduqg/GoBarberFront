@@ -25,7 +25,7 @@ export const Content = styled.div`
       border-radius: 4px;
       height: 44px;
       padding: 0 15px;
-      color: #FFF;
+      color: #fff;
       margin: 0 0 10px;
 
       &::placeholder {
@@ -33,12 +33,19 @@ export const Content = styled.div`
       }
     }
 
+    span {
+      color: #fb6f91;
+      align-self: flex-start;
+      margin: 0 0 10px;
+      font-weight: bold;
+    }
+
     button {
       margin: 5px 0 0;
       height: 44px;
       background: #3b9eff;
       font-weight: bold;
-      color: #FFF;
+      color: #fff;
       border: 0;
       border-radius: 4px;
       font-size: 16px;
