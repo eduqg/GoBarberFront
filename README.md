@@ -81,4 +81,10 @@ Para toasts
 
 > yarn add react-toastify
 ___
+Fluxo para a criação de funcionalidade:
+
+* Em um module, criar actions de request e success.
+* Em pages, importar dispatch e a action a ser chamada.
+* Chamar em handleAlgo o request com os parâmetros apropriados.
+* Ouvir a request em saga criando método em takeLatest.
 ___
