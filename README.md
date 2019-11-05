@@ -67,6 +67,11 @@ Para validações de campos utilizar yup. Serve tanto para node quanto para reac
 
 > yarn add yup
 ___
+Adicionar redux para a autenticação. Token e informações de usuário devem ser dados acessiveis por compoenentes.
+
+> yarn add redux redux-saga react-redux reactotron-redux reactotron-redux-saga immer
+
+Para testar, ir no reactotron, state e adicionar auth. Ele vai aparecer com o valor inicial definido no reducer, trocar para token: '123' para ter certeza.
 ___
 ___
 ___
