@@ -55,7 +55,9 @@ Aqui neste momento são importantes o pacotes eslint-import-resolver-babel-plugi
 
 Configurar arquivo jsconfig.json para poder acessar pastas novamente clicando com ctrl.
 ___
+Para estilos. darken colors.
 
+> yarn add polished
 
 
 ___
