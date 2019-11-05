@@ -31,3 +31,7 @@ History: para navegação em qualquer tela
 
 Reactotron ReactJS
 > yarn add reactotron-react-js
+
+Adicionar nova fonte em global style. Ir na página do google de fontes. Roboto. Select This Font. Pegar em customize o regular 400 e bold 700. Copiar importação no estilo @import. Colocar no arquivo global.js.
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
