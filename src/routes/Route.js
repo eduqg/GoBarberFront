@@ -4,6 +4,9 @@ import PropTypes from 'prop-types';
 
 import AuthLayout from '~/pages/_layouts/auth';
 import DefaultLayout from '~/pages/_layouts/default';
+
+import store from '~/store';
+
 // Novo componente que funcionara como <Route path="/" exact component={SignIn} isPrivate />
 // Todas as outras variaveis vou colocar em ...rest
 // Não preciso inicializar isPrivate = false porque defaultProps já inicializa a variável.
@@ -13,7 +16,7 @@ export default function RouteWrapper({
   ...rest
 }) {
   // Variável que indica se o usuário está logado
-  const signed = false;
+  const { signed } = store.getState().auth;
 
   // Se o usuário não está logado e a rota é privada
   if (!signed && isPrivate) {
